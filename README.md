@@ -9,6 +9,7 @@ Para resolver los ejercicios de este workshop deberán forkear este repositorio.
 - [Scaling Ethereum efficiently](https://starkware.medium.com/scaling-ethereum-efficiently-d91a8a908cab) - Blog de Starkware
 
 ### Cairo 1.0
+- [Cairo – a Turing-complete STARK-friendly CPU architecture](https://eprint.iacr.org/2021/1063) 
 - [Cairo Book](https://cairo-book.github.io/title-page.html) - Libro de la comunidad
 - [Cairo-rs](https://github.com/lambdaclass/cairo-rs) - Cairo VM en Rust
 - [Cairo 1.0](https://github.com/starkware-libs/cairo) - Repositorio oficial de 
