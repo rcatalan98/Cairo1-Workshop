@@ -1,8 +1,6 @@
 // Ejercicio 2 - find-digits ⭐ 
 // https://www.hackerrank.com/challenges/find-digits/problem
 
-use array::ArrayTrait;
-
 fn find_digits(n: u128) -> u128 {
     // TODO: Implementar el contenido de la funcion
     9
