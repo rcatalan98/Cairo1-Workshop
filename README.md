@@ -1,3 +1,5 @@
+![workshop3](https://github.com/rcatalan98/Cairo1-Workshop/assets/30808181/0ec40502-a6ae-4974-898b-a10758637b69)
+
 # Cairo1-Workshop
 Para resolver los ejercicios de este workshop deberán forkear este repositorio. 
 
