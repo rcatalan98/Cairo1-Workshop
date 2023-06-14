@@ -1,10 +1,8 @@
 // Ejemplos - Diccionarios
-// Podes ejecutar el ejemplo con 'cairo-run ./ejemplos/dict.cairo'
+// Podes ejecutar el ejemplo con 'cairo-run ./ejemplos/diccionario.cairo'
 // Felt252Dict docs: https://github.com/starkware-libs/cairo/blob/9a64422eaa311cd5fd41e6a1aa3ffed94fc243a3/docs/reference/src/components/cairo/modules/language_constructs/pages/felt252dict-type.adoc#L4
-
-use array::ArrayTrait;
-use dict::Felt252DictTrait;
 use debug::PrintTrait;
+use dict::Felt252DictTrait;
 
 // Cairo actualmente admite un tipo de diccionario llamado Felt252Dict 
 // que asigna claves de tipo felt252 a otros tipos simples, tales como, u8, u16, u32, u64, u128, felt252 y nullable<T>. 

@@ -9,8 +9,8 @@ fn mini_max_sum(arr: Array<u128>) -> (u128, u128) {
 // Correr los test usando 'cairo-test ./ejercicios/mini_max_sum.cairo'
 #[cfg(test)]
 mod tests {
-    use super::mini_max_sum;
     use array::ArrayTrait;
+    use super::mini_max_sum;
 
     #[test]
     #[available_gas(200000)]

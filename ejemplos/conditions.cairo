@@ -4,18 +4,22 @@
 use debug::PrintTrait;
 
 fn main() {
-    let mut numero = 3;
+    let x: u128 = 20;
 
-    if numero == 12 {
-        'numero es 12'.print();
-    } else if numero == 3 {
-        'numero es 3'.print();
+    if x < 10 | x > 20 { // OR
+        'x < 10 or x > 20'.print();
+
+    } else if x >= 11 & x <= 20 {
+        'x >= 11 and x <= 20'.print();
+
     } else {
-        'numero no encontrado'.print();
+        'x == 10'.print();
     }
 
     // Ejemplo de condición con asignación
     let condicion = true;
+    let mut numero = 0;
+    
     numero = if condicion {
         5 // Asigna el valor 5 a la variable "numero" si la condición es verdadera
     } else {

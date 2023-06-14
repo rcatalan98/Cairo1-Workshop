@@ -1,6 +1,6 @@
 // Ejercicio 3 - fruit-party ⭐ 
-use dict::Felt252DictTrait;
 use array::ArrayTrait;
+use dict::Felt252DictTrait;
 
 #[derive(Drop, Copy)]
 struct Fruta {
@@ -41,10 +41,10 @@ fn fruit_party(frutas: Array<Fruta>) -> Felt252Dict<u32> {
 // Correr los tests usando 'cairo-test ./ejercicios/fruit_party.cairo'
 #[cfg(test)]
 mod tests {
-    use super::fruit_party;
-    use super::Fruta;
     use array::ArrayTrait;
     use dict::Felt252DictTrait;
+    use super::fruit_party;
+    use super::Fruta;
     
     #[test]
     #[available_gas(20000000)]
