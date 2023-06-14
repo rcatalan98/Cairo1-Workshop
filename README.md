@@ -1,15 +1,38 @@
 # Cairo1-Workshop
 Para resolver los ejercicios de este workshop deberán forkear este repositorio. 
 
+Presentación [aquí](https://docs.google.com/presentation/d/1LZ6cNouEqFT-Qg0nsYd8AwRD78Pv5jRN)
+
 ## Instalación de Cairo
 Para instalar Cairo en sus computadoras deben tener Linux, MacOS o WSL en Windows. Recomendamos utilizar el siguiente script realizado por un miembro de la comunidad.
 https://cairo-book.github.io/ch01-01-installation.html
 
 ## Orden de resolución de los ejercicios
 
+1. mini-max-sum
+2. find-digits
+3. fruit-party
+4. the-power-sum
+
 ## Cómo resolver los ejercicios
-Comandos para compilar y ejecutarlos
-Objetivo que los test corran.
+
+Comandos para los ejercicios:
+
+```rust
+// Ejercicio 1
+cairo-test ./ejercicios/mini_max_sum.cairo
+
+// Ejercicio 2
+cairo-test ./ejercicios/find_digits.cairo
+
+// Ejercicio 3
+cairo-test ./ejercicios/fruit_party.cairo
+
+// Ejercicio 4
+cairo-test ./ejercicios/power_sum.cairo
+```
+
+***Objetivo que los test corran.***
 
 ## Recursos útiles
 
