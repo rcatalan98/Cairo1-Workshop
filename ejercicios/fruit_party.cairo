@@ -1,6 +1,6 @@
 // Ejercicio 3 - fruit-party ⭐ 
-use array::ArrayTrait;
 use dict::Felt252DictTrait;
+use array::ArrayTrait;
 
 #[derive(Drop, Copy)]
 struct Fruta {
