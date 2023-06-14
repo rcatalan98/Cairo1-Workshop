@@ -1,5 +1,15 @@
 # Cairo1-Workshop
-Para resolver los ejercicios de este workshop deberán forkear este repositorio.
+Para resolver los ejercicios de este workshop deberán forkear este repositorio. 
+
+## Instalación de Cairo
+Para instalar Cairo en sus computadoras deben tener Linux, MacOS o WSL en Windows. Recomendamos utilizar el siguiente script realizado por un miembro de la comunidad.
+https://cairo-book.github.io/ch01-01-installation.html
+
+## Orden de resolución de los ejercicios
+
+## Cómo resolver los ejercicios
+Comandos para compilar y ejecutarlos
+Objetivo que los test corran.
 
 ## Recursos útiles
 
