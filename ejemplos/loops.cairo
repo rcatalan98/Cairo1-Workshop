@@ -4,7 +4,6 @@
 use array::ArrayTrait;
 use debug::PrintTrait;
 
-
 fn main() {
     // Ejemplo de un loop sencillo
     let mut i: usize = 0;
