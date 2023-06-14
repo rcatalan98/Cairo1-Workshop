@@ -1,5 +1,6 @@
 // Ejemplos - Arrays
 // Podes ejecutar el ejemplo con 'cairo-run ./ejemplos/arrays.cairo'
+// Cairo Book: https://cairo-book.github.io/ch02-06-common-collections.html?highlight=array#array
 use array::ArrayTrait;
 use debug::PrintTrait;
 use option::OptionTrait;
