@@ -6,10 +6,10 @@ use debug::PrintTrait;
 fn main() {
     let x: u128 = 20;
 
-    if x < 10 | x > 20 { // OR
+    if x < 10 | x > 20 { 
         'x < 10 or x > 20'.print();
 
-    } else if x >= 11 & x <= 20 {
+    } else if x >= 11 & x <= 20 { 
         'x >= 11 and x <= 20'.print();
 
     } else {
@@ -19,7 +19,7 @@ fn main() {
     // Ejemplo de condición con asignación
     let condicion = true;
     let mut numero = 0;
-    
+
     numero = if condicion {
         5 // Asigna el valor 5 a la variable "numero" si la condición es verdadera
     } else {
