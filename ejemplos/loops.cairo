@@ -16,7 +16,7 @@ fn main() {
         i += 1; // Incrementa el indice
     };
 
-    // // Ejemplo de un loop con un array
+    // Ejemplo de un loop con un array
     let mut arr = ArrayTrait::new();
     arr.append(1);
     arr.append(2);
