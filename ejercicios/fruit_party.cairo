@@ -32,10 +32,8 @@ struct Fruta {
 /// # Returns
 ///
 /// Un diccionario donde la clave es el nombre de la fruta y el valor es la sumatoria de los precios.
-
 fn fruit_party(frutas: Array<Fruta>) -> Felt252Dict<u32> {
     let mut diccionario = Felt252DictTrait::<u32>::new();
-
     // TODO: Implementar el contenido de la funcion
     diccionario
 }
@@ -70,18 +68,18 @@ mod tests {
 
     #[test]
     #[available_gas(20000000)]
-    fn empty_array_happy_path() {
+    fn empty_array_test() {
         let mut frutas: Array<Fruta> = ArrayTrait::new();
 
         let mut expected = Felt252DictTrait::<u32>::new();
 
         let mut actual = fruit_party(frutas);
-        assert(actual.get('manzana') == expected.get('manzana'), 'error empty_array_happy_path');
+        assert(actual.get('manzana') == expected.get('manzana'), 'error empty_array_test');
     } 
 
     #[test]
     #[available_gas(20000000)]
-    fn free_fruit_happy_path() {
+    fn free_fruit_test() {
         let mut frutas: Array<Fruta> = ArrayTrait::new();
         frutas.append(Fruta { nombre: 'manzana', precio: 7 });
         frutas.append(Fruta { nombre: 'manzana', precio: 0 });
@@ -90,7 +88,7 @@ mod tests {
         expected.insert('manzana', 7);
 
         let mut actual = fruit_party(frutas);
-        assert(actual.get('manzana') == expected.get('manzana'), 'error free_fruit_happy_path');
+        assert(actual.get('manzana') == expected.get('manzana'), 'error free_fruit_test');
     } 
 
 }
